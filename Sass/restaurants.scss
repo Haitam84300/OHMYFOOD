@@ -33,6 +33,64 @@
 #article_10 {
   animation: apparition 2.4s ease-in;
 }
+/*******HEART COLOR******/
+.container{
+  display:inline;
+  justify-content:center;
+  align-items:center;
+  height:300px;
+  width: 50%;
+ height: fit-content;
+ right: 0;
+ justify-content: right;
+ padding: 0;
+ padding-left: 0.9em;
+ right: -135px;
+position: inherit;
+top: -40px; 
+}
+
+.heart{
+  position:relative;
+  z-index:1;
+  cursor: pointer;
+ 
+}
+.heart-color{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  color: transparent;
+  visibility:hidden;
+  transform: scale(0);
+  transition:.3s ease;
+}
+
+.heart:hover .heart-color{
+  transform:scale(1);
+  visibility:visible;
+}
+.heart:hover{
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+.heart{
+  width: 45%;
+  justify-content: end;
+  align-items: center;
+  font-size: x-large;
+  
+}
+h4 {
+  margin-bottom: -12.5px;
+  color: black;
+}
 
 
 
