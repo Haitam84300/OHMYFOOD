@@ -140,6 +140,7 @@ header h1 {
       z-index: 1000;
       text-decoration: none;
       position: relative;
+      width: 100%;
     }
     .card-Restaurants div {
       display: flex;
@@ -311,5 +312,8 @@ header h1 {
       100% {
         transform: rotate(360deg);
       }
+      
     }
-    
+    .imagesrest{
+      width: 100%;
+    }

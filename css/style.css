@@ -133,6 +133,7 @@ p {
   z-index: 1000;
   text-decoration: none;
   position: relative;
+  width: 100%;
 }
 
 .card-Restaurants div {
@@ -312,6 +313,10 @@ footer i {
     transform: rotate(360deg);
   }
 }
+.imagesrest {
+  width: 100%;
+}
+
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 767.9px) {

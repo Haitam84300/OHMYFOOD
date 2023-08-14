@@ -35,19 +35,13 @@
 }
 /*******HEART COLOR******/
 .container{
-  display:inline;
-  justify-content:center;
-  align-items:center;
-  height:300px;
-  width: 50%;
- height: fit-content;
- right: 0;
- justify-content: right;
- padding: 0;
- padding-left: 0.9em;
- right: -135px;
-position: inherit;
-top: -40px; 
+  display: inline;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    padding-left: 0.9em;
+    position: inherit;
+ 
 }
 
 .heart{
@@ -177,8 +171,9 @@ body main .titre-menu {
 }
 .titre-menu i {
   display: flex;
-  font-size: 2rem;
-  padding-right: 3rem;
+    font-size: 2rem;
+    padding-right: 2.5rem;
+
 }
 .layout-star {
   display: flex;

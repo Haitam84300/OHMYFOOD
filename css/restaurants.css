@@ -31,6 +31,58 @@
   animation: apparition 2.4s ease-in;
 }
 
+/*******HEART COLOR******/
+.container {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  padding-left: 0.9em;
+  position: inherit;
+}
+
+.heart {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.heart-color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  color: transparent;
+  visibility: hidden;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+.heart:hover .heart-color {
+  transform: scale(1);
+  visibility: visible;
+}
+
+.heart:hover {
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heart {
+  width: 45%;
+  justify-content: end;
+  align-items: center;
+  font-size: x-large;
+}
+
+h4 {
+  margin-bottom: -12.5px;
+  color: black;
+}
+
 @keyframes apparition {
   0% {
     opacity: 0;
@@ -124,7 +176,7 @@ body main .titre-menu {
 .titre-menu i {
   display: flex;
   font-size: 2rem;
-  padding-right: 3rem;
+  padding-right: 2.5rem;
 }
 
 .layout-star {
